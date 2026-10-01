@@ -1,0 +1,13 @@
+# Log bruto do nginx: grande e contém IPs de visitantes
+access.log
+*.log
+
+# Resultados gerados (relatórios, CSVs e cache do Website Carbon); só a pasta
+# fica no repositório
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
